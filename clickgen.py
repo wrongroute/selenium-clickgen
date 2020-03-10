@@ -34,8 +34,8 @@ def google_clicks(slink, formname, targetclass, title, site):
                 link.click()
                 print('google click' + ' ' + browser.current_url)
                 time.sleep(20)
+                browser.quit()
                 break
-            browser.quit()
         time.sleep(10)
 
 
@@ -58,9 +58,8 @@ def duck_clicks(slink, formid, targetclass, title, site):
                 link.click()
                 print('duckduck click' + ' ' + browser.current_url)
                 time.sleep(20)
-                browser.back()
+                browser.quit()
                 break
-            browser.quit()
         time.sleep(10)
 
 
@@ -83,8 +82,8 @@ def bing_clicks(slink, formid, targetclass, title, site):
                 link.click()
                 print('bing click' + ' ' + browser.current_url)
                 time.sleep(20)
+                browser.quit()
                 break
-            browser.quit()
         time.sleep(10)
 
 
@@ -110,8 +109,8 @@ def yandex_clicks(slink, formid, targetclass, title, site):
                 link.click()
                 print('yandex click' + ' ' + browser.current_url)
                 time.sleep(20)
+                browser.quit()
                 break
-            browser.quit()
         time.sleep(10)
 
 
